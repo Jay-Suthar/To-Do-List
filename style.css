@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-header{
+    color: white;
+    font-size: 30px;
+}
+#task-head{
+    margin: 10px 10px;
+}
+
+.container{
+    max-width: 780px;
+}
+
+#notes {
+    margin: 10px -6px;
+}
+#note-complete{
+    margin: 10px -6px;
+}
+@media (max-width: 1000px){
+    .box{
+        flex-direction: column;
+    }
+    .container{
+        max-width:none;
+    }
+}
